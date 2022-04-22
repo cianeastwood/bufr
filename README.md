@@ -11,7 +11,7 @@ Measurement Shift via Bottom-Up Feature Restoration](https://arxiv.org/pdf/2107.
 
 ## Data
 By default datasets are assumed to be located in a ./datasets/ directory, this can be changed with 
-the data-root flag in the shell scripts use to run experiments. The table below shows where the datasets can be 
+the data-root flag in the shell scripts used to run experiments. The table below shows where the datasets can be 
 downloaded from and the path where they should be stored. To start running the code only EMNIST-DA should be required.
 
 | Dataset     | Download                                                                                                                          | Location                    |
