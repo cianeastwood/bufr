@@ -1,0 +1,8 @@
+---
+epochs: 200
+val_freq: 20
+batch_size: 128
+
+lr: 1.0e-1
+momentum: 0.9
+weight_decay: 5.0e-4

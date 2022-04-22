@@ -1,0 +1,5 @@
+---
+alg_name: source_only
+pretr_epochs: 10
+batch_size: 200
+shots_per_class: -1  # for data efficiency/few-shot. -1 is all data.

@@ -1,0 +1,6 @@
+---
+dataset_name: camelyon17
+total_n_classes: 2  # Binary label split over two classes: p, 1-p
+image_shape: [3, 96, 96]
+network: resnet18wilds
+shifts: [0,1,2,4]  # Shifts refer to indexes of specific hospitals. Should be 0-4 without the hospital pretrained on.

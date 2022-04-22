@@ -1,0 +1,14 @@
+---
+alg_name: SHOT
+pretr_epochs: 150
+batch_size: 256
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0
+lr: 0.01  # 0.1 MNIST-M
+epochs: 30
+
+pl_weight: 0.1  # 0 is IM only
+
+log_freq: 1
+val_freq: 1

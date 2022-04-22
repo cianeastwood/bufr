@@ -1,0 +1,13 @@
+---
+alg_name: BNM
+pretr_epochs: 150
+batch_size: 256
+shots_per_class: -1  # for data efficiency/few-shot. -1 is all data.
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0
+lr: 0.01
+epochs: 150
+
+log_freq: 1
+val_freq: 1

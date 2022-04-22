@@ -1,0 +1,8 @@
+---
+dataset_name: cifar100
+total_n_classes: 100
+image_shape: [3, 32, 32]
+network: resnet18
+shifts: ["brightness", "contrast", "defocus_blur", "elastic_transform", "fog", "frost", "gaussian_blur",
+         "gaussian_noise", "glass_blur", "impulse_noise", "jpeg_compression", "motion_blur", "pixelate",
+         "saturate", "shot_noise", "snow", "spatter", "speckle_noise", "zoom_blur"]

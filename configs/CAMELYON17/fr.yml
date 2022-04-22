@@ -1,0 +1,18 @@
+---
+alg_name: FR
+pretr_epochs: 10
+batch_size: 200
+shots_per_class: -1  # for data efficiency/few-shot. -1 is all data.
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0
+lr: 1.0e-5
+epochs: 15
+
+stats_layer: soft_bins
+surprise_score: PSI
+tau: 0.01
+fr_type: fc
+
+log_freq: 1
+val_freq: 1

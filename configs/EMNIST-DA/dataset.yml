@@ -1,0 +1,9 @@
+---
+dataset_name: emnist
+total_n_classes: 47
+image_shape: [3, 28, 28]
+network: DigitCNN
+# We use these shifts
+shifts: ["bricks", "crystals", "dotted_line", "fog", "gaussian_blur", "grass", "impulse_noise",
+        "inverse", "oranges", "shot_noise", "sky", "stripe", "zigzag"]
+
