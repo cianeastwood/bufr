@@ -1,0 +1,7 @@
+---
+dataset_name: mnist
+total_n_classes: 10
+image_shape: [3, 28, 28]
+network: DigitCNN
+shifts: ["brightness", "canny_edges", "dotted_line", "fog", "glass_blur", "impulse_noise", "motion_blur",
+         "rotate", "scale", "shear", "shot_noise", "spatter", "stripe", "translate", "zigzag", "mnistm"]

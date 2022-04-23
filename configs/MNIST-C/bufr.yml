@@ -1,0 +1,17 @@
+---
+alg_name: BUFR
+pretr_epochs: 150
+batch_size: 256
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0
+lr: 1.0
+epochs_per_block: 30
+
+stats_layer: soft_bins
+surprise_score: PSI
+tau: 0.01
+fr_type: fc
+
+log_freq: 1
+val_freq: 1

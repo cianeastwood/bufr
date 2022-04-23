@@ -1,0 +1,12 @@
+---
+alg_name: label  # supervised
+pretr_epochs: 200
+batch_size: 200
+optimizer: sgd
+momentum: 0.9
+weight_decay: 5.0e-4
+lr: 1.0e-3  # Check what should be this LR?
+epochs: 150
+
+log_freq: 10
+val_freq: 10

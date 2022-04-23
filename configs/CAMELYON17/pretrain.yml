@@ -1,0 +1,10 @@
+---
+epochs: 10
+val_freq: 1
+batch_size: 128
+
+lr: 1.0e-2
+momentum: 0.9
+weight_decay: 1.0e-3
+
+hospital_idx: 3

@@ -1,0 +1,7 @@
+---
+pretr_epochs: 150
+
+stats_layer: soft_bins
+tau: 0.01
+batch_size: 512
+n_batches: -1

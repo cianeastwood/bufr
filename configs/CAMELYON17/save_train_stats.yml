@@ -1,0 +1,9 @@
+---
+pretr_epochs: 10
+
+stats_layer: soft_bins
+tau: 0.01
+batch_size: 200
+n_batches: -1
+
+hospital_idx: 3  # Must be the same as pretraining

@@ -1,0 +1,10 @@
+---
+epochs: 150
+val_freq: 10
+batch_size: 256
+
+lr: 1.0e-1
+momentum: 0.9
+weight_decay: 0
+
+shot_pretrain: false

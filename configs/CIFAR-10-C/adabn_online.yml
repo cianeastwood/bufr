@@ -1,0 +1,4 @@
+---
+alg_name: AdaBN_online
+pretr_epochs: 200
+batch_size: 200

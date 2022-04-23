@@ -1,0 +1,17 @@
+---
+alg_name: FR_online
+pretr_epochs: 200
+batch_size: 200
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0
+lr: 1.0e-2
+epochs: 1
+
+stats_layer: soft_bins
+surprise_score: PSI
+tau: 0.05
+fr_type: fc
+
+log_freq: 1
+val_freq: 1
