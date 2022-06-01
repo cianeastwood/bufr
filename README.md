@@ -16,7 +16,7 @@ downloaded from and the path where they should be stored. To start running the c
 
 | Dataset     | Download                                                                                                                          | Location                    |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| EMNIST-DA   | [Data](https://drive.google.com/file/d/1bAdCYp9YrK_yrOqzq7-h6zWQd2Rs30fF/view?usp=sharing)                                        | &lt;data-root>/EMNIST/      |
+| EMNIST-DA   | [Data](https://zenodo.org/record/6602351)                                        | &lt;data-root>/EMNIST/      |
 | MNIST-C     | [Data](https://zenodo.org/record/3239543)                                                                                         | &lt;data-root>/mnist_c/     |
 | MNIST-M     | Set download=True in mnistm.py or [here](https://github.com/VanushVaswani/keras_mnistm/releases/download/1.0/keras_mnistm.pkl.gz) | &lt;data-root>/MNISTM/      |
 | CIFAR-10-C  | [Data](https://zenodo.org/record/2535967)                                                                                         | &lt;data-root>/CIFAR-10-C/  |
