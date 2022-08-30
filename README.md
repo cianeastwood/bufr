@@ -95,7 +95,9 @@ adapt.sh and bufr.sh scripts during training.
 
 Analysis files can be run using the scripts in ```./scripts/analysis``` and changing the PYTHONPATH appropriately. 
 The files calibration.py, max_patches.py and tsne.py contain hardcoded paths at the start of the files that you may 
-wish to change.
+wish to change. The only exception is vis_per_unit_scores.py which has no such run script in ```./scripts/analysis```
+and is quite messy. If you would like to use this to recreate Figure 17 of Appendix J.3 in our paper, please let us
+know and we can provide some run scripts!
 
 ## Results
 The results we achieved from running this code can be found [here](Results.md).
